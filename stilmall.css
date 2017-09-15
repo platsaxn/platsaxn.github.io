@@ -8,17 +8,10 @@ body {
 
 header{
     padding:20px;
-    background: linear-gradient(#fff, rgba(40,40,64,0.8));
+    background: linear-gradient(#ff2000, rgba(40,40,64,0.8));
     border-bottom:2px dashed #444;
 }
 
-main {
-    flex: 1;
-    padding: 20px;
-    background: radial-gradient(circle, rgba(26,130,245,0.8), rgba(40,40,64,0.8));
-    color:#fff;
-    font-size: 1.4em;
-}
 main a{
     color:#fff;
     text-decoration: none;
@@ -27,7 +20,7 @@ main a{
 
 footer{
     border-top:2px dashed #444;
-    background: linear-gradient(rgba(40,40,64,0.8), #eee);
+    background: linear-gradient(rgba(40,40,64,0.8), #ee);
     padding:20px;
 }
 
