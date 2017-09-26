@@ -1,9 +1,10 @@
 body {
-    display: flex;
+    display:flex;
     min-height: 100vh;
     flex-direction: column;
     margin:0;
     background: url("Platsax.png") right top no-repeat;
+    background-size: 300px
 }
 
 header{
@@ -12,22 +13,34 @@ header{
     border-bottom:2px dashed #444;
 }
 
-main a{
-    color:#fff;
-    text-decoration: none;
-    border-bottom:1px dotted #fff;
-}
-
 footer{
-    border-top:2px dashed #444;
-    background: linear-gradient(rgba(40,40,64,0.8), #ee);
+    border-top:3px dashed #444;
+   background: linear-gradient(#ff2000, rgba(40,40,64,0.8));
     padding:20px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 8000px){
     main{
         background-size: 25%;
         font-size:120%;
-    }
-    
+} 
+    table {
+        background-color: beige;
+        font-family: arial;
+        padding-left: 3px;
+        text-align: center;
+        
 }
+    th {
+        color:blue;
+        padding: 7px;
+        border-bottom: 2px solid blue;
+        
+}
+    td {
+        border-bottom: 1px solid black;
+}
+    em {
+        font-size: 120%;
+}
+    
