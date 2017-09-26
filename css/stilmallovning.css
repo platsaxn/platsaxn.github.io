@@ -1,0 +1,16 @@
+body { 
+    background-color: darkred; 
+}
+main { 
+    background-color: aqua;
+    min-height: 500px;
+}
+footer {
+    background-color: white;
+    min-height: 50px;
+}
+header {
+    background-color: chocolate;
+    min-height: 100px
+}       
+    
