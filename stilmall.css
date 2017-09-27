@@ -18,8 +18,6 @@ footer{
    background: linear-gradient(#ff2000, rgba(40,40,64,0.8));
     padding:20px;
 }
-
-@media screen and (max-width: 8000px){
     main{
         background-size: 25%;
         font-size:120%;
@@ -39,6 +37,9 @@ footer{
 }
     td {
         border-bottom: 1px solid black;
+}
+    tfoot {
+        background-color: aqua;
 }
     em {
         font-size: 120%;

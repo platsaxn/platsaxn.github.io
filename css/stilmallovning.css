@@ -1,13 +1,11 @@
 body { 
     background-color: darkred; 
 }
-main { 
-    background-color: aqua;
-    min-height: 500px;
-}
 footer {
-    background-color: white;
+    background-color: black;
     min-height: 50px;
+    color: aliceblue;
+    background-position: bottom;
 }
 header {
     background-color: chocolate;
