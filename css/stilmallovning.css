@@ -12,22 +12,21 @@ footer {
     background-color: darkslateblue;
     min-height: 50px;
     color: aliceblue;
-    border-bottom: 2px solid blue;
-    border-right: 5px solid;
     object-position: left;
-    
-    
+     border: solid black;
     
 }
 header {
     background-color: darkslateblue;
-    display:
+    border: solid black;
     
 }       
 main {
     background-color: darkslateblue;
-    border: dashed black;
+    border: solid black;
     padding-right: 450px;
     padding-left: 450px;
 }
+nav {
     
+}
