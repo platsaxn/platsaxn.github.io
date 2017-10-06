@@ -6,13 +6,14 @@ body {
     background: url("Platsax.png") right top no-repeat;
     background-size: 300px;
     border-right:5px solid black;
-    background-color: aliceblue;
+    background-color:azure;
     
 }
 
 header{
     padding:20px;
     background: linear-gradient(#ff2000, rgba(40,40,64,0.8));
+    
 }
 
 footer{

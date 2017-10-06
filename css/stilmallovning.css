@@ -28,5 +28,8 @@ main {
     padding-left: 450px;
 }
 nav {
-    
+    display: inline-block;
+}
+a {
+    color: aliceblue
 }
