@@ -12,50 +12,58 @@ body {
 
 header{
     padding:20px;
-    background: linear-gradient(#ff2000, rgba(40,40,64,0.8));
+    background: linear-gradient(#ff2000, rgb(40,0,150));
+
     
 }
 
 footer{
     border-top:2px dashed #444;
-   background: linear-gradient(#ff2000, rgba(40,40,64,0.8));
+    background: linear-gradient(#ff2000, rgb(40,0,150));
     padding:20px;
 }
-    main{
-        background-size: 25%;
-        font-size:120%;
+ main{
+    background-size: 25%;
+    font-size:120%;
 } 
-    table {
-        background-color: beige;
-        font-family: arial;
-        padding-left: 3px;
-        text-align: center;
+table {
+    background-color: beige;
+    font-family: arial;
+    padding-left: 3px;
+    text-align: center;
         
 }
-    th {
-        color:blue;
-        padding: 7px;
-        border-bottom: 2px solid blue;
+th {
+    color:blue;
+    padding: 7px;
+    border-bottom: 2px solid blue;
         
 }
-    td {
-        border-bottom: 1px solid black;
+td {
+    border-bottom: 1px solid black;
 }
-    tfoot {
-        background-color: aqua;
+tfoot {
+    background-color: aqua;
 }
-    em {
-        font-size: 120%;
+em {
+    font-size: 120%;
 }
 nav {
     display:inline-block;
     font-family:monospace;
     font-size: 24px;
     padding-bottom: 20px;
+    max-width: 50px;
 }
 nav img{
     width: auto;
     height: 64px;
     
 }
-    
+#fotnav {
+    display:block;
+}
+section {
+    display: inline-block;
+    max-width: 50px;
+}
