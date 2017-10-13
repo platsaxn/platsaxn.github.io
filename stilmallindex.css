@@ -16,7 +16,6 @@ footer{
  main{
     background-size: 25%;
     font-size:120%;
-     height: 700px
 
 }
 em {
@@ -63,4 +62,7 @@ form {
 section {
     display: inline-block;
     max-width: 50px;
+}
+main#indexmain {
+    height: 700px;
 }
