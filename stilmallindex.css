@@ -1,0 +1,59 @@
+body {
+    margin:0;
+    background-color: antiquewhite; 
+}
+
+header{
+    padding: 2px 0 15px 15px;
+    background: linear-gradient(#ff2000, rgb(100,0,50));
+}
+
+footer{
+    border-top:2px dashed #444;
+    background: linear-gradient(#ff2000, rgb(40,0,150));
+    padding:20px;
+}
+ main{
+    background-size: 25%;
+    font-size:120%;
+
+}
+em {
+    font-size: 120%;
+}
+nav {
+    display:inline-block;
+    font-family:monospace;
+    font-size: 24px;
+    padding-bottom: 15px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 1px;
+    color: antiquewhite;
+    box-shadow: 2px 3px black;
+    
+
+}
+nav img{
+    width: auto;
+    height: 64px;
+    
+}
+form {
+    display: inline-block;
+    padding: 0 0 15px 500px;
+    
+}
+#fotnav {
+    display:block;
+}
+section {
+    display: inline-block;
+    max-width: 50px;
+}
