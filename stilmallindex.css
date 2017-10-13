@@ -16,6 +16,7 @@ footer{
  main{
     background-size: 25%;
     font-size:120%;
+     height: 700px
 
 }
 em {
@@ -36,9 +37,15 @@ nav a {
     padding: 3px;
     margin: 1px;
     color: antiquewhite;
-    box-shadow: 2px 3px black;
+    box-shadow: 2px 4px 4px black;
+    display: inline-block;
+    background-color: darkred
     
-
+    
+}
+nav a:hover {
+    box-shadow: 1px 2px 4px black;
+    
 }
 nav img{
     width: auto;
