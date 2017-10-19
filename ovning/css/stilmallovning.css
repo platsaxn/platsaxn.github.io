@@ -1,0 +1,35 @@
+body { 
+    display: flex;
+    flex-direction:row;
+     color: aliceblue;
+    background-color: darkred; 
+    background: url(nicolas-cage.jpg) left top no-repeat;
+    background-size: cover;
+    background-color: darkslateblue;
+    
+}
+footer {
+    background-color: darkslateblue;
+    min-height: 50px;
+    color: aliceblue;
+    object-position: left;
+     border: solid black;
+    
+}
+header {
+    background-color: darkslateblue;
+    border: solid black;
+    
+}       
+main {
+    background-color: darkslateblue;
+    border: solid black;
+    padding-right: 450px;
+    padding-left: 450px;
+}
+nav {
+    display: inline-block;
+}
+a {
+    color: aliceblue
+}

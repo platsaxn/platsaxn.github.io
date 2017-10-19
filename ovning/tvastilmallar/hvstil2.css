@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(102,102,102);
+    font-family: sans-serif;
+    padding: 0 316px;
+}
+header p {
+    font-weight: 900;
+    padding-left: 20px
+}
+h1 {
+    background-color: #444444;
+    color: white;
+    padding-left: 20px;
+    
+}
+main {
+    padding: 5px 25px 5px 25px;
+}
+img {
+    max-width: 320px;
+    float: right;
+    margin: 17px 0 11px 17px;
+    
+}
+footer {
+    background-image:url(o.jpg);
+    background-position: bottom;
+    height: 320px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header p {
+    font-size: 119%
+}
+div {
+    background-color: rgb(228,240,248);
+    width: 800px;
+   
+
+}
+footer h2{
+    margin-top: 0;
+    padding:40px 0 0 25px
+}
+footer p{
+    padding:40px 0 0 25px
+}
+ul{
+    padding-left: 20px;
+}
