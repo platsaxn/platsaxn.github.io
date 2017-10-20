@@ -1,33 +1,52 @@
-    body {
-      animation: colorchange 250ms;
-      -webkit-animation: colorchange 250ms;
-      -webkit-animation-iteration-count: 200000; /* Safari 4.0 - 8.0 */
-    animation-iteration-count: 200000;
-        padding-left: 75px;
-
-    
-    }
-
-    @keyframes colorchange
-    {
-      0%   {background: red;}
-      25%  {background: yellow;}
-      50%  {background: blue;}
-      75%  {background: green;}
-      100% {background: red;}
-    
-    }
-
-    @-webkit-keyframes colorchange
-    {
-      0%   {background: red;}
-      25%  {background: yellow;}
-      50%  {background: blue;}
-      75%  {background: green;}
-      100% {background: red;}
-        repeat:active;
-    }
-img {
-    padding: 20px
+body {
+    animation: colorchange 250ms;
+    -webkit-animation: colorchange 250ms;
+    -webkit-animation-iteration-count: infinite;       animation-iteration-count:infinite;
+    padding-left: 75px;
 }
 
+@keyframes colorchange {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+}
+
+@-webkit-keyframes colorchange {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+}
+
+main img {
+    position: relative;
+    animation-name: movingimg;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes movingimg {
+    0% {left:0px; top:0px; }
+    25% {left:200px; top:0px; }
+    50% {left:200px; top:200px; }
+    75% {left:0px; top:200px; }
+    100% {left:0px; top:0px; }
+}
+div img{
+    position: relative;
+    animation-name: test;
+    animation-duration: 7s;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes test {
+    0% {bottom:0px; }
+    25% {bottom: 500px; }
+    50% {bottom: 500px; }
+    75% {bottom:500px; }
+    100% {bottom: 0px; }
+}
