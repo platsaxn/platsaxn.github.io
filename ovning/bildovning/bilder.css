@@ -1,4 +1,18 @@
 
 #svg {
-    width: 600px
+    width: 600px;
+}
+body {
+    background-color: azure;
+    text-align: center;
+}
+table {
+    margin: 50px 200px 200px 200px;
+}
+td {
+    padding:20px;
+}
+table img {
+    min-width: 600px;
+    max-height: 400px
 }
