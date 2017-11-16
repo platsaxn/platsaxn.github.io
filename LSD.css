@@ -1,7 +1,8 @@
 body {
     animation: colorchange 250ms;
     -webkit-animation: colorchange 250ms;
-    -webkit-animation-iteration-count: infinite;       animation-iteration-count:infinite;
+    -webkit-animation-iteration-count: infinite;      
+    animation-iteration-count:infinite;
     padding-left: 75px;
 }
 
