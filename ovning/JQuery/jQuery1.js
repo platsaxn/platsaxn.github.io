@@ -1,7 +1,7 @@
 $(function(){
-    $("body").click(function() {
-        var x = Math.floor(Math.random()*800);
-        var y = Math.floor(Math.random()*500);
+    $("body").mousemove(function() {
+        var x = Math.floor(Math.random()*2000);
+        var y = Math.floor(Math.random()*1000);
         $("#fly1").css({left:x,top:y});
     });
     $("#openinfo").click(function() { 
