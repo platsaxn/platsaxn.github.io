@@ -1,7 +1,28 @@
 #info {
     display:none;
     background-color: aqua;
+    margin-bottom:10px
 }
 #openinfo {
     cursor:pointer;
+    margin-bottom:10px
+}
+input[type="color"] { 
+    width:30px; 
+    height:30px; 
+}
+form {
+    background-color: lightgray;
+    padding: 10px 0 10px 10px;
+    width:50%;
+    border:solid 2px black;
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px black;
+    
+}
+form p {
+    display:inline-block;
+}
+body {
+    padding: 20px 0 0 20px;
 }
