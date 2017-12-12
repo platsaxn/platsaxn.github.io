@@ -1,0 +1,51 @@
+body {
+    background-repeat: no-repeat;
+    min-height: 1050px;
+    background-image: url(bakgrund.jpeg);
+    background-size: cover;
+    background-position: top;
+    width:100%;
+    margin:0;
+}
+header {
+    background-color:white;
+    text-align: center;
+    min-height: 150px;
+    width:100%;
+}
+header img {
+    max-height: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    float:left;
+    display: inline-block;
+}
+header nav a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 300%;
+    color: dimgray;
+    padding: 45px 25px 50px 25px; 
+    float:left;
+    
+}
+nav a:hover {
+     color:red;
+     border-bottom:solid red;
+}
+main {
+    text-align: center;
+    
+}
+#info {
+    display:none;
+    background-color: aqua;
+    margin-bottom:10px
+}
+#openinfo {
+    cursor:pointer;
+    margin-bottom:10px
+}
+#indexknapp {
+    text-align: left;
+}
