@@ -1,51 +1,81 @@
 body {
     background-repeat: no-repeat;
-    min-height: 1050px;
     background-image: url(bakgrund.jpeg);
-    background-size: cover;
-    background-position: top;
-    width:100%;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
     margin:0;
 }
 header {
     background-color:white;
-    text-align: center;
-    min-height: 150px;
     width:100%;
+    position:absolute;
+    max-height: 150px;
 }
 header img {
     max-height: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
     float:left;
     display: inline-block;
 }
 header nav a {
     text-decoration: none;
-    display: inline-block;
-    font-size: 300%;
+    display: inline;
+    font-size: 100%;
     color: dimgray;
-    padding: 45px 25px 50px 25px; 
+    padding: 0 0 25px 0;
     float:left;
+    border-bottom: 2px solid white;
     
 }
 nav a:hover {
      color:red;
-     border-bottom:solid red;
+     border-bottom:2px solid red;
 }
 main {
-    text-align: center;
-    
+    text-align: center; 
 }
 #info {
     display:none;
-    background-color: aqua;
-    margin-bottom:10px
+    background-color:rgba(255,255,255, 0.65);
+    border: 2px dotted black;
+    border-radius: 20px;
+    text-align: left; 
+    float:left;
+    max-width: 60%;
+    padding: 20px;
+    font-size: 125%;
+    margin: 0 0 0 10%;
 }
 #openinfo {
     cursor:pointer;
-    margin-bottom:10px
+    margin-top: 25px;
+    font-size: 175%;
+    background-color:whitesmoke;
+    border:2px solid black;
+    border-radius: 10px;
+}
+#closeinfo{
+    display: inline-block;
+    cursor:pointer;
+    margin-top: 25px;
+    font-size: 175%;
+    background-color:whitesmoke;
+    border:2px solid black;
+    border-radius: 10px;
 }
 #indexknapp {
-    text-align: left;
+    display:inline-block;
+    float:left;
+    
+}
+#bildtext {
+    display:inline-block;
+    margin-top: 200px;
+}
+figcaption {
+    display: block;
+}
+#neon {
+    display: inline-block;
+    max-width: 200px;
 }
