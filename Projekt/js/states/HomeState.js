@@ -18,10 +18,10 @@ var HomeState={
         
         this.game.add.text(50,this.game.world.centerY-200,'TOUCH TO START',style);
         
-        this.game.add.text(380,220,'AVOID: ',style);
-        this.game.add.sprite(580,235,'fire');
-        this.game.add.text(350,280,'USE UP AND DOWN-ARROW',styles);
-        this.game.add.text(380,340,'TO NAVIGATE',styles);
+        this.game.add.text(280,220,'AVOID: ',style);
+        this.game.add.sprite(480,235,'fire');
+        this.game.add.text(250,280,'USE UP AND DOWN-ARROW',styles);
+        this.game.add.text(280,320,'TO NAVIGATE',styles);
         
         this.add.sprite(0,408,'ground');
     

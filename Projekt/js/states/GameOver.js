@@ -8,9 +8,8 @@ var GameOver = {
         this.text.anchor.setTo(0.5);
         this.text2.anchor.setTo(0.5);
         
-        var button = game.add.button(game.world.centerX, 300,'button',this.restart,this,0,0,0);
+        var button = game.add.button(300, 300,'button',this.restart,this,0,0,0);
         
-        button.anchor.setTo(0.5);
        /* again.inputEnabled=true;
         again.events.onInputDown.add(function(){
             
