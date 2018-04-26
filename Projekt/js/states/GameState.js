@@ -21,11 +21,16 @@ create: function() {
     
         this.game.add.sprite(0,0,'bg1');
     
-        this.ground = this.add.sprite(0,628,'ground');
+        this.ground = this.add.tileSprite(0,628,10000,72,'ground');
         this.game.physics.arcade.enable(this.ground);
         this.ground.body.allowGravity = false;
         this.ground.body.immovable = true;
-        //this.ground.body.velocity.x=-200;
+    
+        this.ram = game.add.sprite(0,628, null); //x,y,utan bild
+        this.game.physics.arcade.enable(this.ram);
+        this.ram.body.setSize(10000,10); //bredd, höjd
+        this.ram.body.immovable = true;
+        this.ram.body.allowGravity = false;
     
         this.player = this.add.sprite(256,300, 'player', 3);
         this.player.anchor.setTo(0.5);
@@ -66,7 +71,7 @@ create: function() {
         this.score = this.game.add.text(0,0,'0',style)
     },
 update:function(){
-        this.game.physics.arcade.collide(this.player, this.ground);
+        this.game.physics.arcade.collide(this.player, [this.ground,this.ram]);
         this.game.physics.arcade.overlap(this.player,[this.fire, this.fire2, this.fire3],this.enemyHit,null,this);
         
         if(this.player.body.velocity.x>=0){
@@ -92,6 +97,8 @@ update:function(){
         }
     
         speed=speed-0.2;
+    
+        this.ground.body.velocity.x=speed;
     
         this.fire.body.velocity.x = speed;
         this.fire2.body.velocity.x = speed;
