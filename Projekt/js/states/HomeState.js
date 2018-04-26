@@ -1,4 +1,5 @@
 var style={font:'50px Comic Sans MS',fill:'#fff'};
+var styles={font:'25px Comic Sans MS',fill:'#fff'}
 var style2={font:'50px Comic Sans MS',fill:'#FF0000'};
 var HomeState={
     
@@ -19,8 +20,8 @@ var HomeState={
         
         this.game.add.text(380,220,'AVOID: ',style);
         this.game.add.sprite(580,235,'fire');
-        this.game.add.text(350,280,'USE UP-ARROW ',style);
-        this.game.add.text(380,340,'TO JUMP',style);
+        this.game.add.text(350,280,'USE UP AND DOWN-ARROW',styles);
+        this.game.add.text(380,340,'TO NAVIGATE',styles);
         
         this.add.sprite(0,408,'ground');
     
