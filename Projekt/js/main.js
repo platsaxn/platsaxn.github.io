@@ -1,5 +1,5 @@
 
-game = new Phaser.Game(900, 700, Phaser.AUTO);
+game = new Phaser.Game(800, 480, Phaser.AUTO);
 
 game.state.add('PreloadState', PreloadState);
 game.state.add('HomeState', HomeState);  

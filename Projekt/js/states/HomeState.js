@@ -15,14 +15,14 @@ var HomeState={
         },this);
         
         
-        this.game.add.text(50,this.game.world.centerY-160,'TOUCH TO START',style);
+        this.game.add.text(50,this.game.world.centerY-200,'TOUCH TO START',style);
         
-        this.game.add.text(400,300,'AVOID: ',style);
-        this.game.add.sprite(600,310,'fire');
-        this.game.add.text(410,360,'USE UP-ARROW ',style);
-        this.game.add.text(420,420,'TO JUMP',style);
+        this.game.add.text(380,220,'AVOID: ',style);
+        this.game.add.sprite(580,235,'fire');
+        this.game.add.text(350,280,'USE UP-ARROW ',style);
+        this.game.add.text(380,340,'TO JUMP',style);
         
-        this.add.sprite(0,628,'ground');
+        this.add.sprite(0,408,'ground');
     
         
     }   

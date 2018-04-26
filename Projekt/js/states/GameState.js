@@ -19,16 +19,35 @@ create: function() {
         this.JUMPING_SPEED=625;
     
     
-        this.game.add.sprite(0,0,'bg1');
+        this.bg1 = this.game.add.tileSprite(0,0,100000,726,'bg1');
+        this.game.physics.arcade.enable(this.bg1);
+        this.bg1.body.allowGravity = false;
+        this.bg1.body.velocity.x = -15;
     
-        this.ground = this.add.tileSprite(0,628,10000,72,'ground');
+        this.bg2 = this.game.add.tileSprite(0,100,100000,726,'bgfore');
+        this.game.physics.arcade.enable(this.bg2);
+        this.bg2.body.allowGravity = false;
+        this.bg2.body.velocity.x = -30;
+    
+        this.bg4 = this.game.add.tileSprite(0,100,10000,364,'bgfore3');
+        this.game.physics.arcade.enable(this.bg4);
+        this.bg4.body.allowGravity = false;
+        this.bg4.body.velocity.x = -50;
+    
+        this.bg3 = this.game.add.tileSprite(0,50,100000,364,'bgfore2');
+        this.game.physics.arcade.enable(this.bg3);
+        this.bg3.body.allowGravity = false;
+        this.bg3.body.velocity.x = -80;
+    
+  
+        this.ground = this.add.tileSprite(0,408,100000,99,'ground');
         this.game.physics.arcade.enable(this.ground);
         this.ground.body.allowGravity = false;
         this.ground.body.immovable = true;
     
-        this.ram = game.add.sprite(0,628, null); //x,y,utan bild
+        this.ram = game.add.sprite(0,408, null); //x,y,utan bild
         this.game.physics.arcade.enable(this.ram);
-        this.ram.body.setSize(10000,10); //bredd, höjd
+        this.ram.body.setSize(100000,10); //bredd, höjd
         this.ram.body.immovable = true;
         this.ram.body.allowGravity = false;
     
@@ -45,7 +64,7 @@ create: function() {
     
         enemies.create(900, 590, 'fire');*/
     
-        this.fire = this.add.sprite(950,610,'fire');
+        this.fire = this.add.sprite(950,390,'fire');
         this.fire.anchor.setTo(0.5);
         this.game.physics.arcade.enable(this.fire);
         this.fire.body.allowGravity = false;
@@ -53,7 +72,7 @@ create: function() {
         this.fire.animations.play('fire');
       
     
-        this.fire2 = this.add.sprite(1500,610,'fire');
+        this.fire2 = this.add.sprite(1500,390,'fire');
         this.fire2.anchor.setTo(0.5);
         this.game.physics.arcade.enable(this.fire2);
         this.fire2.body.allowGravity = false;
@@ -61,7 +80,7 @@ create: function() {
         this.fire2.animations.play('fire');
         
     
-        this.fire3 = this.add.sprite(1950,610,'fire');
+        this.fire3 = this.add.sprite(1950,390,'fire');
         this.fire3.anchor.setTo(0.5);
         this.game.physics.arcade.enable(this.fire3);
         this.fire3.body.allowGravity = false;
